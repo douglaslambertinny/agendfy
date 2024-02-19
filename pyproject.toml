@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "agendfy"
+version = "0.1.0"
+description = "Appointment app via whatsApp and E-mail."
+authors = ["Douglas Barbosa <douglas.b.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.108.0"
+sqlmodel = "^0.0.14"
+uvicorn = "^0.25.0"
+debugpy = "^1.8.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.1"
+httpx = "^0.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
